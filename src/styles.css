@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.card {
+    @apply overflow-hidden bg-white rounded shadow-md relative pb-5;
+}
+
+.badge {
+    @apply bg-gray-300 text-gray-400 p-2 text-xs uppercase font-bold rounded-full absolute top-0 ml-2 mt-5;
+}
+
+.btn {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider
+}
